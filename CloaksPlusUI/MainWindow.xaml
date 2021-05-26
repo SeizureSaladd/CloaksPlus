@@ -1,0 +1,44 @@
+﻿<Window x:Class="CloaksPlusUI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CloaksPlusUI"
+        mc:Ignorable="d"
+        Title="Cloaks+ | Made by seizure salad#0001" Height="430" Width="765" WindowStartupLocation="CenterScreen" WindowStyle="None" AllowsTransparency="True" Background="Transparent">
+    <Window.TaskbarItemInfo>
+        <TaskbarItemInfo x:Name="taskBarItemInfo1" 
+                    
+                     ThumbnailClipMargin="80,0,80,140"
+                     Description="Taskbar Item Info Sample">
+        </TaskbarItemInfo>
+    </Window.TaskbarItemInfo>
+    <Grid Margin="0,0,10,0" MouseDown="Grid_MouseDown">
+        
+        <Image HorizontalAlignment="Left" Height="430" Margin="0,0,-10,0" VerticalAlignment="Top" Width="765" Source="Background.png"/>
+        <Image x:Name="Install" HorizontalAlignment="Left" Height="80" Margin="237,160,0,0" VerticalAlignment="Top" Width="290" Source="Buttons/Install.png"/>
+        <!-- install-->
+        <Image HorizontalAlignment="Left" Height="96" Margin="210,22,0,0" VerticalAlignment="Top" Width="345" Source="Buttons/Artboard2.png"/>
+        <Image x:Name="Uninstall" HorizontalAlignment="Left" Height="50" Margin="302,245,0,0" VerticalAlignment="Top" Width="160" Source="Buttons/Uninstall.png"/>
+        <Image x:Name="Twitter" HorizontalAlignment="Left" Height="60" Margin="10,354,0,0" VerticalAlignment="Top" Width="60" Source="Buttons/Twitter.png"/>
+        <Image x:Name="Discord" HorizontalAlignment="Left" Height="60" Margin="10,289,0,0" VerticalAlignment="Top" Width="60" Source="Buttons/Discord.png"/>
+        <Image x:Name="Terms" HorizontalAlignment="Left" Height="40" Margin="492,354,0,0" VerticalAlignment="Top" Width="202" Source="Buttons/Terms_of_Cloaks.png"/>
+        <Image x:Name="Checkbox" HorizontalAlignment="Left" Height="40" Margin="699,354,0,0" VerticalAlignment="Top" Width="40" Source="Buttons/Check_Box_Unchecked.png"/>
+        <Image x:Name="Exit" HorizontalAlignment="Left" Height="60" Margin="685,10,0,0" VerticalAlignment="Top" Width="60" Source="Buttons/X.png"/>
+        <Image x:Name="Minimize" HorizontalAlignment="Left" Height="60" Margin="620,10,0,0" VerticalAlignment="Top" Width="60" Source="Buttons/-.png"/>
+        <Button x:Name="TwitterButton" Content="" ToolTip="Follow our Twitter!" BorderBrush="Transparent" HorizontalAlignment="Left" Height="60" Margin="10,354,0,0" VerticalAlignment="Top" Width="60" Background="Transparent" Click="Button_Click" MouseEnter="Button_MouseEnter" MouseLeave="Button_MouseLeave" MouseUp="Button_MouseUp" Cursor="Hand"/>
+        <Button x:Name="Discord1" Content="" ToolTip="Join the Discord!" BorderBrush="Transparent" HorizontalAlignment="Left" Height="60" Margin="10,289,0,0" VerticalAlignment="Top" Width="60" Background="Transparent" Click="Discord1_Click" MouseEnter="Discord1_MouseEnter" MouseLeave="Discord1_MouseLeave" MouseUp="Discord1_MouseUp" Cursor="Hand"/>
+        <Button x:Name="Terms1" Content="" ToolTip="Read the terms of Cloaks+!" BorderBrush="Transparent" HorizontalAlignment="Left" Height="40" Margin="492,354,0,0" VerticalAlignment="Top" Width="202" Background="Transparent" Cursor="Hand" Click="Terms1_Click" MouseEnter="Terms1_MouseEnter" MouseLeave="Terms1_MouseLeave" MouseUp="Terms1_MouseUp"/>
+        <Button x:Name="Install1" Content="" ToolTip="Install Cloaks+" BorderBrush="Transparent" HorizontalAlignment="Left" Height="80" Margin="237,160,0,0" VerticalAlignment="Top" Width="290" Background="Transparent" Cursor="Hand" Click="Install1_Click" MouseEnter="Install1_MouseEnter" MouseLeave="Install1_MouseLeave" MouseUp="Install1_MouseUp"/>
+        <Button x:Name="Uninstall1" Content="" ToolTip="Uninstall Cloaks+" BorderBrush="Transparent" HorizontalAlignment="Left" Height="50" Margin="302,245,0,0" VerticalAlignment="Top" Width="160" Background="Transparent" Cursor="Hand" Click="Uninstall1_Click" MouseEnter="Uninstall1_MouseEnter" MouseLeave="Uninstall1_MouseLeave" MouseUp="Uninstall1_MouseUp"/>
+        <Button x:Name="Minimize1" Content= "" HorizontalAlignment="Left" Height="60" Margin="620,10,0,0" VerticalAlignment="Top" Width="60" Cursor="Hand" Click="Minimize1_Click" MouseEnter="Minimize1_MouseEnter" MouseLeave="Minimize1_MouseLeave" MouseUp="Minimize1_MouseUp"/>
+        <Button x:Name="Exit1" Content="" HorizontalAlignment="Left" Height="60" Margin="685,10,0,0" VerticalAlignment="Top" Width="60" Cursor="Hand" Click="Exit1_Click" MouseEnter="Exit1_MouseEnter" MouseLeave="Exit1_MouseLeave" MouseUp="Exit1_MouseUp"/>
+        <ToggleButton x:Name="Checkbox1" Content="" Background="Transparent" Foreground="Transparent" HorizontalAlignment="Left" Height="40" Margin="699,354,0,0" VerticalAlignment="Top" Width="40" Checked="Checkbox1_Checked" Unchecked="Checkbox1_Unchecked"/>
+        <!-- twitter discord exit install buttons minimize done-->
+        <!-- Stuff left to do-->
+        <!-- uninstall and checkbox-->
+        <!-- cloaks+ -->
+
+
+    </Grid>
+</Window>
