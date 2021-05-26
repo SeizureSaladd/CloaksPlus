@@ -1,2 +1,4 @@
 # CloaksPlus
-aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+STOP SAYING IT'S A VIRUS YOU'RE DRIVING ME INSANE
+
+DONT DOWNLOAD ANYTHING FROM OTHER THAN THE OFFICIAL DOWNLOAD LINK WHICH IS https://cloaks.plus/CloaksPlusInstaller.exe
